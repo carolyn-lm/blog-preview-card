@@ -15,16 +15,18 @@ main {
     height: 100vh;
 }
 
-/* title - link */
-.title {
+/* title */
+h1 {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: hsl(0, 0%, 7%);
 }
 
-.title:hover {
+/* change text and cursor when hover over title */
+h1:hover {
     color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 /* main card */
