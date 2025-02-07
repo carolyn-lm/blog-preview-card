@@ -1,0 +1,89 @@
+/* Set background color and default font styles */
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 7%);
+}
+
+/* Center items */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* title - link */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+/* main card */
+.card {
+    width: 325px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+/* add margin for all content within card */
+.content-wrapper {
+    margin: 20px;
+}
+
+/* highlight text */
+.highlight {
+    padding: 5px;
+    background-color: hsl(47, 88%, 63%);
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+/* author name & picture */
+.author {
+    font-weight: bold;
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+/* author image */
+.authorpic {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+
+/* description text */
+#description {
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 30px;
+}
+
+/* Image at top of card */
+#topimg {
+    width: 100%;
+    border-radius: 5%;
+}
+
+/* default styles from challenge */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
